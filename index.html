@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Formulário HTML </title>
+
+
+
+</head>
+
+<body>
+
+    <div class="contato">
+        <h1>Contato</h1>
+        <form action="enviar.php" method="post">
+            <div class="txtb">
+                <label for="nome">Nome:</label>
+
+                <input type="text" name="nome" id="nome" required placeholder="Entre com seu nome"> <br>
+            </div>
+            <div class="txtb">
+                <label for="idade">Idade:</label>
+
+                <input type="number" name="idade" id="idade" required placeholder="Entre com sua idade"> <br>
+            </div>
+            <div class="txtb">
+                <label for="site">Site: </label>
+
+                <input type="url" name="site" id="site" required placeholder="Entre com o nome do Site"> <br>
+            </div>
+            <div class="txtb">
+                <label for="email">Email: </label>
+
+                <input type="email" name="email" id="email" required placeholder="Entre com seu Email"> <br>
+            </div>
+            <div class="txtb">
+                <label for="mensagem">Mensagem: </label>
+
+                <textarea name="mensagem" id="mensagem" required placeholder="Digite sua mensagem"></textarea> <br>
+            </div>
+
+            <input type="submit" class="btn" value="Enviar">
+
+        </form>
+    </div>
+</body>
+
+</html>
